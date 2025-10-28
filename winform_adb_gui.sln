@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "winform_adb_gui", "winform_adb_gui\winform_adb_gui.csproj", "{69204C9D-FEC2-429A-8991-E8E83557E318}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69204C9D-FEC2-429A-8991-E8E83557E318}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69204C9D-FEC2-429A-8991-E8E83557E318}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69204C9D-FEC2-429A-8991-E8E83557E318}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69204C9D-FEC2-429A-8991-E8E83557E318}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9C33D91D-E693-431C-9576-082BF003A4A6}
+	EndGlobalSection
+EndGlobal
