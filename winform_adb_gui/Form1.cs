@@ -1,6 +1,7 @@
 using winform_adb_gui.Core;
 using winform_adb_gui.Hardware;
 using winform_adb_gui.Sim;
+using winform_adb_gui.SystemControl;
 
 namespace winform_adb_gui
 {
@@ -9,7 +10,7 @@ namespace winform_adb_gui
         public Form1()
         {
             InitializeComponent();
-            
+
             FlowLayoutPanel panel = new FlowLayoutPanel
             {
                 Dock = DockStyle.Fill,
@@ -25,6 +26,9 @@ namespace winform_adb_gui
 
             // Create SIM UI and add to form
             panel.Controls.Add(SimUI.CreateSimUI());
+
+            // Add the Android System UI
+            panel.Controls.Add(SystemUI.CreateSystemUI());
 
             this.Controls.Add(panel);
         }
