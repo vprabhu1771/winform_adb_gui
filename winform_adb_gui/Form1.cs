@@ -1,5 +1,6 @@
 using winform_adb_gui.Core;
 using winform_adb_gui.Hardware;
+using winform_adb_gui.Sim;
 
 namespace winform_adb_gui
 {
@@ -21,6 +22,9 @@ namespace winform_adb_gui
 
             // Create and add Core UI section
             panel.Controls.Add(CoreUI.CreateCoreUI());
+
+            // Create SIM UI and add to form
+            panel.Controls.Add(SimUI.CreateSimUI());
 
             this.Controls.Add(panel);
         }
