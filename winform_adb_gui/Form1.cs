@@ -11,6 +11,8 @@ namespace winform_adb_gui
         {
             InitializeComponent();
 
+            this.Text = "ADB Control Panel";
+
             // Set the window to open maximized
             this.WindowState = FormWindowState.Maximized;
 
