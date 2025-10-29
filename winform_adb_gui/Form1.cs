@@ -11,6 +11,9 @@ namespace winform_adb_gui
         {
             InitializeComponent();
 
+            // Set the window to open maximized
+            this.WindowState = FormWindowState.Maximized;
+
             FlowLayoutPanel panel = new FlowLayoutPanel
             {
                 Dock = DockStyle.Fill,
